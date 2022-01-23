@@ -10,6 +10,7 @@ import { ExampleTwoDeepComponent } from './components/ExampleTwoDeepComponent';
 import { SitemapLinkGenerator } from './components/SitemapLinkGenerator';
 import { PageNotFound } from './components/PageNotFound';
 import { Breadcrumbs } from './components/Breadcrumbs';
+const Background =  require("./images/background.jpg")
 
 const AppContainer = styled('div', {
   maxWidth: '540px',
@@ -50,8 +51,8 @@ export const App: React.VFC = () => {
         Brewing Ideas...</H1>
         <HeaderIconContainer>
           <GitHubIconLink
-            href="https://github.com/rafgraph/spa-github-pages"
-            title="GitHub repository for SPA GitHub Pages"
+            href="https://github.com/spbane/kaagzee"
+            title="GitHub repository for Kaagzee"
           />
           <TwitterIconLink
             href="https://www.kaagzee.com"
